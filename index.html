@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Love 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HOME PAGE -->
+<div class="card page" id="homePage">
+  <h1>Do You Still Love Me my sexyy? 💖</h1>
+
+  <video id="panda" autoplay loop muted>
+    <source src="Our Video.mp4" type="video/mp4">
+  </video>
+
+  <div class="roses">🌹 🌹 🌹 🌹 🌹</div>
+
+  <div class="buttons">
+    <button onclick="goYes()">YES 💕</button>
+    <button onclick="goNo()">NO 💔</button>
+  </div>
+</div>
+
+<!-- YES PAGE -->
+<div class="card page hidden" id="yesPage">
+  <h1>💕 Aarey I knew you lovee meee 💕</h1>
+  <p>You made me the happiest bubu 💖</p>
+  <p> I love You Mero budii </p>
+
+  <img src="her-photo.jpg" alt="Her Photo" class="love-img">
+
+  <button onclick="goHome()">🏠 Back Home</button>
+</div>
+
+<!-- NO PAGE -->
+<div class="card page hidden" id="noPage">
+  <h1>💔 Oii vai No vanchas chakeyy</h1>
+  <p>Yess vaan bsdk</p>
+
+  <video width="220" controls autoplay>
+    <source src="sad-video.mp4" type="video/mp4">
+  </video>
+
+  <button onclick="goHome()">🏠 Back Home</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

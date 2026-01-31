@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(135deg, pink, #ffb6c1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* CARD */
+.card {
+  background: #fff0f6;
+  padding: 30px;
+  border-radius: 20px;
+  width: 360px;
+  margin: 50px auto;
+  box-shadow: 0 0 25px hotpink;
+  animation: openLetter 1.2s ease-out;
+}
+
+@keyframes openLetter {
+  from {
+    transform: scaleY(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  color: hotpink;
+}
+
+/* VIDEO */
+#panda {
+  width: 220px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px hotpink;
+  margin: 15px 0;
+  animation: pandaBounce 2s infinite;
+}
+
+@keyframes pandaBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* IMAGE FIX ❤️ */
+.love-img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0 15px pink;
+}
+
+/* ROSES */
+.roses {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: hotpink;
+  color: white;
+}
